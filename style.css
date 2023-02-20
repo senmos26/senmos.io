@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+section {
+	margin-top: 30px;
+}
+
+.navbar-brand {
+	font-size: 24px;
+}
+
+.navbar-nav a {
+	font-size: 18px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.btn-primary {
+	margin-top: 20px;
+}
+
+p {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+@media screen and (max-width: 576px) {
+	h2 {
+		margin-top: 20px;
+		font-size: 28px;
+	}
+	
+	.navbar-brand {
+		font-size: 20px;
+	}
+	
+	.navbar-nav a {
+		font-size: 16px;
+	}
+	
+	.form-control {
+		font-size: 18px;
+	}
+	
+	.btn-primary {
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	p {
+		margin-top: 10px;
+		font-size: 20px;
+	}
+}
